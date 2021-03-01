@@ -1,0 +1,967 @@
+@media screen and (max-width: 1900px){
+    *{
+        padding:0;
+        margin: 0;
+        font-family: Arial, Tahoma, sans-serif;    
+    }
+
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        
+       
+    }
+    /* -------------------------------- INDEX ------------------------------- */    
+    #topo{
+        position: absolute;
+        text-align: right;
+        z-index:1;
+    }
+
+    #menu{
+        margin-right: 50px;
+    }
+
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        overflow: auto;
+    }
+    #fundo{
+        background-color: black;
+        margin-left:7px;
+        width: 99%;
+        height: 98%;
+        opacity: 0.5;
+        border-radius: 7px;
+         
+    }
+
+    #login{
+        top: 100px;
+        right: 30px;
+        float: right;
+        width: 400px;
+        height: 440px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+
+    }
+
+    #btn-login{
+        margin-top: 10px;
+        margin-left:200px;
+    }
+
+    #par3{
+        margin-top: 30px;
+    }
+    /* -------------------------------- A empresa ------------------------------- */    
+
+    #espaco_topo{
+        margin-top: 110px;
+    }
+
+    /* -------------------------------- Fale conosco ------------------------------- */    
+
+    #espaco_topo_fc{
+        margin-top: 110px;
+    }
+
+    #hr_fc_1{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+    #hr_fc_2{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+    #hr_fc_3{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+    #hr_fc_4{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;        
+    }
+
+    #hr_fc_5{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;        
+    }
+
+
+
+    /* --------------------------------!! TELA DE CADASTRO !!------------------------------- */ 
+
+    /* BARRA DE PROGRESSO */ 
+
+    #traco_um{
+        border-top:0px;
+        border-left: 1px solid black;
+        border-bottom:0px;
+        border-right: 0px;
+    }
+    #traco_dois{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+    #traco_tres{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+
+    #traco_quatro{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+
+    #traco_cinco{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+    
+    /* -----------------------------------CADASTRO CRECHE----------------------------------- */ 
+
+    #bordas{
+        margin-top: 110px;
+    }
+
+    #bordas-p{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 1000px;
+        height: 22px;
+        border-color:#000;
+        border-width:3px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    #tracos-p{
+    border-top:0px;
+    border-left: 1px solid black;
+    border-bottom:0px;
+    border-right: 0px;
+    }
+
+    #hr1{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    #hr11{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    #EscoCre{
+        margin-top: 7px;
+    }
+
+    #EscoCre2{
+        margin-top: 40px;
+    }
+
+    #sorvete{
+        position: absolute;
+        top:270px;
+        margin-left: 650px;
+        height:500px;
+    }
+
+    /* --------------------------------CADASTRO RESPONSAVEL------------------------------- */ 
+
+    #bordas_cad_resp{
+        margin-top: 110px;
+    }
+
+    #dado_resp{
+        margin-top: 70px;
+    }
+
+    #nome_sobrenome_resp{
+        margin-top:10%;
+    }
+
+    #hr2{
+	color: #57A0C2;
+	background-color: #57A0C2;
+	height: 1px;
+	width: 100%;
+    }
+    #menino_telefone{
+	position: relative;
+        margin-top:100px;
+	margin-left: 700px;
+	height:310px;
+    }
+
+    #menina_bico{
+    	position: relative;
+	margin-top:100px;
+	margin-left: 700px;
+	height:310px;
+    }
+    #botao_cad_resp{
+    	margin-bottom:2%
+    }
+
+    /* --------------------------------CADASTRO ENDERECO------------------------------- */ 
+    #bordas_end{
+        margin-top: 110px;
+    }
+
+    #hr3{
+	    color: #57A0C2;
+	    background-color: #57A0C2;
+	    height: 1px;
+	    width: 100%;
+	}
+
+    #casa_crianca{
+        position: relative;
+        top:500px;
+        margin-left: 500px;
+        height:200px;
+    }
+    /* --------------------------------CADASTRO CRIANÇA------------------------------- */ 
+
+    #bordas_cri{
+        margin-top: 110px;
+    }
+    #dados_cri{
+        margin-top: 5%;
+    }
+
+    #hr4{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+    #criança_lado{
+        position: absolute;
+        top:270px;
+        margin-left:525px;
+        height:200px;
+    }
+
+    #aviao_papel{
+        position: absolute;
+        top:770px;
+        margin-left:525px;
+        height:200px;
+    }
+
+    /* --------------------------------CONFIRMAÇÃO CADASTRO------------------------------- */
+    #bordas_confi{
+        margin-top: 110px;
+
+    }
+
+    /*-------------------------------BOTÃO DE PRÓXIMO DO FORMULÁRIO --------------------- */
+    #button_form{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+    }
+
+    /*------------------------------- CONFIRMA E-MAIL --------------------- */
+    #bordas_confi_email{
+        margin-top: 110px;
+    }
+
+    #primeiro_titu{
+        margin-top: 15%;
+
+    }
+    #texto{
+        margin-top: 5%;
+    }
+    #texto2{
+        margin-top: 5%;
+    }
+
+    #menino_fundo_azul{
+        width: 500px;
+        margin-top: -11%;        
+
+    }
+
+    /*------------------------------- TELA DE REGISTRO ---------------------------- */
+
+    #bordas_tela_registro{
+        margin-top: 110px;
+    }
+
+    #paragrafo1{
+        font-size: 15px;
+    }
+
+    #crianca_feliz{
+        position: absolute;
+        top:290px;
+        margin-left:600px;
+        width:400px;
+    }
+
+    /*------------------------------- REGISTRO FINALIZADO ---------------------------- */
+
+    #bordas_finalizado{
+        margin-top: 110px;
+    }
+
+    .caixa_cadastrado{
+        border-style: solid;
+        width: center;
+        height: 200px;
+        margin-top: 100px;
+        border-width: 2px;
+    }
+
+    /* --------------------------------!! TELA DE LOGADO RESPONSÁVEL !!---------------------- */ 
+
+    /* -----------------------------------HOME RESPONSAVEL----------------------------------- */ 
+    /* -----------------------------------STATUS MATRICULA----------------------------------- */ 
+
+    #status_matricula{
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    #hr5{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+    #bordas-p-matricula{
+        margin-top: 70px;
+        margin-bottom: 60px;
+        width: 600px;
+        height: 22px;
+        border-color:#000;
+        border-width:3px;
+        border-style: solid;
+        border-radius: 50px;
+        margin-left: 30px;
+    }
+
+    #sem_topo1{
+        border-top:0px;
+        border-left: 1px solid black;
+        border-bottom:0px;
+        border-right: 0px;
+    }
+    #sem_topo2{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+    #sem_topo3{
+        border-top:0px;
+        border-left: 0px;
+        border-bottom:0px;
+        border-right: 1px solid black;
+    }
+
+    /*#topic_barra{
+        padding: 0px 140px 0px 0px;
+        position: relative;
+        
+    } */
+
+    #sala_de_aula{
+        margin-top: 100px;
+
+    }
+
+    #hr6{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+    /* ----------------------------------SUA MATRICULA----------------------------------- */ 
+
+    #sua_matricula{
+        margin-top: 200px;
+        font-size: 30px;
+    }
+
+    #hr7{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 2px;
+        width: 100%;
+    }
+    .caixa{
+        border-top: 1px solid #ced4da;
+        border-left: 1px solid #ced4da;
+        border-right: 1px solid #ced4da;
+        border-bottom: 1px solid #ced4da;
+        border-radius: 3px;
+        height: 38px;
+        width: 200px;
+    }
+
+    /* --------------------------------!! TELA DE LOGADO FUNCIONARIO !!---------------------- */ 
+    /* -----------------------------------INICIO FUNCIONARIO----------------------------------- */ 
+    #menu_logado_f{
+        background-color: #0DB4E8;
+        float: left;
+        width: 270px;
+        min-height: 789px;
+        margin-left: -16px;
+    }
+
+
+    #bordas_nome_f{
+        margin-top: 100px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+
+    #bordas_cri_solic{
+        margin-top: 100px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+
+    #bordas_turmas{
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+
+    #bordas_pesquisar{
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+
+    #bordas_excluir{
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+    #bordas_sair_f{
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+        background-color: white; 
+    }
+
+    #bordas_solic_matri{
+        margin-top: 110px;
+        width: 470px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    /* -----------------------------------INICIO FUNCIONARIO----------------------------------- */ 
+    #bordas_turma{
+        margin-top: 110px;
+        width: 270px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+    #hr7_solic_matri{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+    /* -----------------------------------TURMAS----------------------------------- */ 
+    #turmas{
+        font-size: 30px;
+    }
+
+    #hr8{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    /* -----------------------------------PESQUISA-------------------------------------------- */ 
+
+    #pesquisar{
+        font-size: 30px;
+    }
+
+    #bordas_pesquisar_p{
+        margin-top: 110px;
+        width: 270px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    #hr9{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+    #bordas_excluir_cadastro{
+        margin-top: 110px;
+        width: 320px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px; 
+    }
+
+    #hr10{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    #hr11{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    #hr12{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+    /* -----------------------------------EXCLUIR CADASTRO-------------------------------------------- */ 
+    #excluir{
+        font-size: 30px;
+    }
+    
+    #hr13{
+      color: #57A0C2;
+      background-color: #57A0C2;
+      height: 1px;
+      width: 100%;
+    }
+
+    /* --------------------------------!! TELA DE ESQUECI A SENHA !!------------------------------- */ 
+
+    /* ---------------------------------- PRINCIPAL ESQUECI A SENHA ------------------------------- */ 
+
+    #bordas_esqueci_senha{
+        margin-top: 110px;
+        width: 400px;
+        height: 50px;
+        border-color:#000;
+        border-width:2px;
+        border-style: solid;
+        border-radius: 50px;
+    }
+
+    #recu_senha{
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    #hr14{
+        color: #57A0C2;
+        background-color: #57A0C2;
+        height: 1px;
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1600px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 1300px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1200px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+
+    #login{
+        top: 100%;
+        right: 30%;
+        float: right;
+        width: 400px;
+        height: 440px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+
+    #login{
+        top: 100px;
+        right: 30px;
+        float: right;
+        width: 400px;
+        height: 440px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+
+    }
+}
+
+@media screen and (max-width: 992px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+
+    #bordas-p{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 400px;
+        height: 22px;
+        border-color:#000;
+        border-width:3px;
+        border-style: solid;
+        border-radius: 50px;
+     }
+
+    #tracos_p{
+        border-top:0px;
+        border-left: 1px solid black;
+        border-bottom:0px;
+        border-right: 0px;
+    }
+
+    #login{
+        top: 100px;
+        right: 30px;
+        float: right;
+        width: 400px;
+        height: 440px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+    
+    #imgfundo{
+        background-image: url('../imagem_site/meninabg.jpg');
+        background-repeat: no-repeat;
+        background-size:100%;
+        bottom: 0;
+        color: black;
+        left: 0;
+        overflow: auto;
+        padding: 3em;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        background-size: cover;
+    }
+
+    #login{
+        top: 100px;
+        right: 30px;
+        float: right;
+        width: 400px;
+        height: 440px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+
+    }
+
+    #bordas-p{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 500px;
+        height: 22px;
+        border-color:#000;
+        border-width:3px;
+        border-style: solid;
+        border-radius: 50px;
+     }
+
+    #tracos_p{
+        border-top:0px;
+        border-left: 1px solid black;
+        border-bottom:0px;
+        border-right: 0px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    * {
+        padding:0;
+        margin: 0;    
+    }
+    
+    /* para garantir que estes elementos ocuparão toda a tela */
+    body, html {
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Tahoma, sans-serif;
+    }
+
+    #login{
+        top: 90px;
+        right: -28px;
+        float: right;
+        width: 320px;
+        height: 390px;
+        background-color: white;
+        border-radius: 7px;
+        z-index: 3;
+        position: relative;
+    }
+
+    #bordas-p{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 500px;
+        height: 2200000px;
+        border-color:#000;
+        border-width:3px;
+        border-style: solid;
+        border-radius: 50px;
+     }
+
+    #tracos_p{
+        border-top:0px;
+        border-left: 100px solid black;
+        border-bottom:0px;
+        border-right: 0px;
+    }
+    #teste{
+        background-color: red;
+        right: 30px;
+        float: right;
+        width: 400px;
+        height: 440px;
+    }
+}
